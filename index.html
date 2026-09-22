@@ -11,17 +11,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <section class="hero" id="inicio">
-        <div class="petals" aria-hidden="true">✦</div>
-        <p class="eyebrow">10 de outubro de 2026</p>
-        <h1>Nícolas <span>&amp;</span> Ionara</h1>
-        <p class="intro">“Assim, eles já não são dois, mas uma só carne.”<br><small>Mateus 19:6</small></p>
-        <a class="button" href="#confirmar">Confirmar presença</a>
-        <div class="scroll">deslize para descobrir <span>↓</span></div>
+    <main class="invite-shell">
+      <section class="panel cover">
+        <p class="eyebrow">um convite especial<br>para</p><h1>você</h1>
+        <div class="cover-photo"></div>
+        <div class="cover-copy"><h2>Nícolas<br><span>&amp; Ionara</span></h2><h3>VAMOS NOS CASAR!</h3><p>E queremos compartilhar esse momento tão especial com você.</p><a class="button" href="#confirmar">Abrir convite <b>→</b></a></div>
+      </section>
+      <section class="panel center" id="inicio">
+        <p class="eyebrow">duas vidas<br>um só propósito<br>com a ajuda de Jeová</p><h2>Nícolas <em>&amp;</em> Ionara</h2><h3>VAMOS NOS CASAR!</h3><p>Com muita alegria, queremos compartilhar com você um dos momentos mais especiais de nossas vidas.</p><div class="verse">“Suporta todas as coisas,<br>acredita em todas as coisas,<br>espera todas as coisas,<br>persevera em todas as coisas.”<small>1 CORÍNTIOS 13:7</small></div><div class="timeline"><h3>◉ &nbsp; CASAMENTO CIVIL</h3><p>▣ &nbsp; 10 de outubro de 2026 (Sábado)</p><p>◷ &nbsp; 11h00</p><p>⌖ &nbsp; R. Conselheiro Cotegipe, 468<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Belenzinho, São Paulo - SP</p><a href="https://share.google/OtOu88gTuzOB8uuxO" target="_blank">ABRIR NO MAPA</a><h3 class="after">🥂 &nbsp; DEPOIS DO SIM...</h3><p>Queremos continuar essa celebração ao lado de pessoas especiais!</p><h3>🍽 &nbsp; RESTAURANTE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A DEFINIR</h3></div><div class="closing">QUE SEJA O INÍCIO<br>DE UMA LINDA JORNADA,<br>SEMPRE COM JEOVÁ<br>NO CENTRO DE NOSSAS VIDAS.</div>
+      </section>
+      <section class="panel confirm" id="confirmar">
+        <p class="eyebrow">confirmação<br>de presença</p><h2>Nome do Convidado,</h2><p>podemos contar com<br>sua presença?</p><small>Será uma alegria ter você conosco<br>nesse dia tão especial!</small><form id="rsvp-form"><input name="nome" required placeholder="Seu nome"/><button type="button" class="choice selected">● &nbsp; SIM, ESTAREI LÁ!</button><button type="button" class="choice">○ &nbsp; INFELIZMENTE, NÃO PODEREI COMPARECER</button><label>♙ &nbsp; VAI LEVAR ACOMPANHANTE?</label><div class="pills"><button type="button">Sim</button><button type="button">Não</button></div><label>▤ &nbsp; DEIXE UMA MENSAGEM<br><small>(opcional)</small></label><textarea name="mensagem" placeholder="Será um prazer receber sua mensagem..."></textarea><button class="button" type="submit">✈ &nbsp; ENVIAR RESPOSTA</button></form><div id="success" class="success" hidden>Obrigado! Até logo! 💛</div><div class="footer-verse">“Portanto, o que Deus pôs<br>sob o mesmo jugo,<br>o homem não separe.”<small>MATEUS 19:6</small></div>
       </section>
 
-      <section class="section story">
+      <section class="section story" hidden>
         <p class="eyebrow">com carinho</p>
         <h2>Um novo capítulo começa</h2>
         <p>Estamos muito felizes em compartilhar este dia especial com você. Sua presença tornará nossa celebração ainda mais inesquecível.</p>
