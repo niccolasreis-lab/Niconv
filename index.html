@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f0e8" />
+    <title>Nícolas & Ionara — Nosso casamento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="petals" aria-hidden="true">✦</div>
+        <p class="eyebrow">10 de outubro de 2026</p>
+        <h1>Nícolas <span>&amp;</span> Ionara</h1>
+        <p class="intro">“Assim, eles já não são dois, mas uma só carne.”<br><small>Mateus 19:6</small></p>
+        <a class="button" href="#confirmar">Confirmar presença</a>
+        <div class="scroll">deslize para descobrir <span>↓</span></div>
+      </section>
+
+      <section class="section story">
+        <p class="eyebrow">com carinho</p>
+        <h2>Um novo capítulo começa</h2>
+        <p>Estamos muito felizes em compartilhar este dia especial com você. Sua presença tornará nossa celebração ainda mais inesquecível.</p>
+        <div class="quote">“O amor é paciente e bondoso... tudo suporta.”<br><small>1 Coríntios 13:7</small></div>
+      </section>
+
+      <section class="section details">
+        <p class="eyebrow">anote na agenda</p>
+        <h2>Nosso encontro</h2>
+        <div class="detail-grid">
+          <article><span class="icon">◷</span><h3>Quando</h3><p>Sábado, 10 de outubro<br>de 2026, às 16h</p></article>
+          <article><span class="icon">⌖</span><h3>Onde</h3><p>R. Conselheiro Cotegipe, 468<br>Belenzinho — São Paulo/SP</p><a href="https://share.google/OtOu88gTuzOB8uuxO" target="_blank" rel="noreferrer">Ver no mapa →</a></article>
+        </div>
+      </section>
+
+      <section class="section rsvp" id="confirmar">
+        <p class="eyebrow">sua presença importa</p>
+        <h2>Você vem celebrar com a gente?</h2>
+        <form id="rsvp-form">
+          <label>Seu nome<input name="nome" required placeholder="Como devemos chamar você?" /></label>
+          <label>Número de convidados<input name="convidados" type="number" min="1" max="10" value="1" required /></label>
+          <button class="button" type="submit">Confirmar presença</button>
+          <p class="form-note">Ao confirmar, o WhatsApp será aberto com sua mensagem pronta.</p>
+        </form>
+        <div id="success" class="success" hidden>Obrigado! Estamos esperando por você. 💛</div>
+      </section>
+    </main>
+    <footer>Nícolas &amp; Ionara · 2026</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
